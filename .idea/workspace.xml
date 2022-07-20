@@ -10,9 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05c0ce7c-30c0-4ae1-aa93-a7a41778963f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/DayWeather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DayWeather.js" afterDir="false" />
-    </list>
+    <list default="true" id="05c0ce7c-30c0-4ae1-aa93-a7a41778963f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658306293718</updated>
-      <workItem from="1658306294962" duration="8534000" />
+      <workItem from="1658306294962" duration="8858000" />
     </task>
     <servers />
   </component>
