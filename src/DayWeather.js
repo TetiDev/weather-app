@@ -15,7 +15,7 @@ export default function DayWeather() {
           alt="pict"
         />
         <p>
-          <span className="temp_day">30°</span>
+          <span className="temp_day">28°</span>
         </p>
       </div>
     </div>
