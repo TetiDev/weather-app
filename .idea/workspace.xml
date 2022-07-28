@@ -10,7 +10,36 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05c0ce7c-30c0-4ae1-aa93-a7a41778963f" name="Default Changelist" comment="" />
+    <list default="true" id="05c0ce7c-30c0-4ae1-aa93-a7a41778963f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchCity.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CityHeader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CurrentCity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CurrentCity.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DailyWeather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DailyWeather.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DayWeather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DayWeather.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchCity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/broken clouds.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/broken_clouds.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/clear_sky.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/clear_sky.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/few clouds.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/few_clouds.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/heavy intensity rain.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/heavy_intensity_rain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/light rain.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/light_ rain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/moderate rain.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/moderate_rain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/overcast clouds.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/overcast_clouds.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/scattered clouds.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/scattered_clouds.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/snow.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/snow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/thunderstorm.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/thunderstorm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/wind.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/wind.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,8 +61,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore&#10;D:/MyDoc/Dev/SheCodes/WeatherReact/weather-app/node_modules/@types/luxon/index.d.ts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../WeatherReactNewApp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,6 +74,9 @@
     <property name="ts.external.directory.path" value="D:\MyDoc\Dev\SheCodes\WeatherReact\weather-app\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyDoc\Dev\SheCodes\WeatherReact\weather-app\public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MyDoc\Dev\SheCodes\WeatherReact\weather-app\src" />
     </key>
@@ -59,7 +91,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658306293718</updated>
-      <workItem from="1658306294962" duration="8858000" />
+      <workItem from="1658306294962" duration="29710000" />
+      <workItem from="1658527570969" duration="26503000" />
+      <workItem from="1658831414505" duration="18364000" />
+      <workItem from="1658911564895" duration="19239000" />
     </task>
     <servers />
   </component>
@@ -76,6 +111,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -88,9 +124,25 @@
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="724" y="425" key="#ESLint/0.0.1707.1027@0.0.1707.1027" timestamp="1658306324241" />
-    <state x="355" y="159" key="SettingsEditor" timestamp="1658332049417">
+    <state x="634" y="269" key="FileChooserDialogImpl" timestamp="1658949467908">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state x="355" y="159" key="SettingsEditor/0.0.1707.1027@0.0.1707.1027" timestamp="1658332049417" />
+    <state x="634" y="269" key="FileChooserDialogImpl/0.0.1707.1027@0.0.1707.1027" timestamp="1658949467908" />
+    <state x="355" y="159" key="SettingsEditor" timestamp="1658582686207">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="355" y="159" key="SettingsEditor/0.0.1707.1027@0.0.1707.1027" timestamp="1658582686207" />
+    <state x="560" y="248" width="587" height="530" key="find.popup" timestamp="1658496584412">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="560" y="248" width="587" height="530" key="find.popup/0.0.1707.1027@0.0.1707.1027" timestamp="1658496584412" />
+    <state x="510" y="238" key="run.anything.popup" timestamp="1658577922412">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="510" y="238" key="run.anything.popup/0.0.1707.1027@0.0.1707.1027" timestamp="1658577922412" />
+    <state x="516" y="222" width="672" height="678" key="search.everywhere.popup" timestamp="1658947611507">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="516" y="222" width="672" height="678" key="search.everywhere.popup/0.0.1707.1027@0.0.1707.1027" timestamp="1658947611507" />
   </component>
 </project>
