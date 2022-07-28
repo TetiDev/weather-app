@@ -1,19 +1,35 @@
-import React, { useContext } from 'react';
+import React, { useCallback, useContext, useState } from 'react';
 import { Context } from './context';
 import { Capitalize } from './capitalize';
 import DateTimeFormatOptions = Intl.DateTimeFormatOptions;
 
 export default function CurrentCity() {
   const context = useContext(Context);
+  const [switchTemp, setSwitchTemp] = useState<'cel' | 'far'>('cel');
+
   console.log(context!.dataDay);
-
   const imgName = context!.dataDay ? context!.dataDay.weather![0].description.replace(' ', '_') : '';
-  // <FormattedDate date={context!.dataDay?.dt!} />;
-
   const date = new Date(context!.dataDay?.dt! * 1000);
   const options:DateTimeFormatOptions = { weekday: 'short', day: 'numeric', month: 'short' };
   const curDate = date.toLocaleDateString('en-US', options);
-  console.log(curDate);
+
+  const switchTemperature = useCallback((event: any) => {
+    if (event.target.className === 'measureC') {
+      setSwitchTemp('cel');
+    } else {
+      setSwitchTemp('far');
+    }
+  }, [switchTemp]);
+
+  const getTemperature = useCallback(() => {
+    if (!context!.dataDay) {
+      return '';
+    }
+
+    const temp = switchTemp === 'cel' ? context!.dataDay!.main!.temp : (context!.dataDay!.main!.temp * 9) / 5 + 32;
+    return context!.dataDay ? Math.round(temp) : 0;
+  }, [context, switchTemp]);
+
   return (
     <div>
       <div className="current_city">
@@ -36,7 +52,7 @@ export default function CurrentCity() {
             </div>
             <div style={{ width: '40%', position: 'relative' }}>
               <div>
-                <span className="current_temp_day">{context!.dataDay ? Math.round(context!.dataDay.main!.temp) : 0}</span>
+                <span className="current_temp_day">{getTemperature()}</span>
                 <span className="current_measure">°</span>
               </div>
               <div
@@ -44,13 +60,13 @@ export default function CurrentCity() {
                   padding: '0', position: 'absolute', top: 0, right: 0,
                 }}
               >
-                <a className="measureC" href="#">°C</a>
+                <a href="#" className="measureC" onClick={switchTemperature}>°C</a>
                 <span className="measureHr"> / </span>
-                <a href="#" className="measureF">°F</a>
+                <a href="#" className="measureF" onClick={switchTemperature}>°F</a>
               </div>
               <div style={{ display: 'flex' }}>
                 <div>
-                  <img className="pict_day" src="https://img.kidico.com.ua/shecode/wind.png" height="40" alt="wind" />
+                  <img className="pict_day" src="img/wind.png" height="40" alt="wind" />
                 </div>
                 <div style={{ marginLeft: '20px' }}>
                   <p>Wind</p>
